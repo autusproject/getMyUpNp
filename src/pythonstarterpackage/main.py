@@ -6,6 +6,7 @@ def main():
 	configparser = ConfigLoader()
 	starterpkg = StarterPkg(configparser)
 	starterpkg.run()
+	find-my-upnp.run()
 
 if __name__ == "__main__":
 	raise SystemExit(main())
